@@ -17,7 +17,6 @@ const Gallery = (source: any, name: string) => {
           {data.map((item: any, index:any) => {
             return (
               <li key={index}>
-
                 <GalleryItems img={item.img} name={item.name} url={item.url} />
               </li>
             );
