@@ -11,11 +11,12 @@ const TemplePage2 = ({
   url,
 }: TemplePageProps) => {
   return (
-    <div className="page flex flex-col items-center px-10 pt-32">
-      <div className="title-container">
+    <div className="page h-full flex flex-col items-center px-10 py-10" id={name}>
+      <div className="title-container md:pt-12">
         <p className="running-number ">{num}</p>
         <div className="title-text-container">
           <div className="title-text-main">{name}</div>
+      
           <div className="title-text-sub">{district}</div>
         </div>
       </div>
@@ -39,12 +40,15 @@ const TemplePage2 = ({
                 alt="map-bg"
                 className="map-img lg:map-img-2"
               />
-              <div className="map-button">Open in Google Map</div>
+              <div className="map-button text-nowrap">
+                <p className="font-medium text-white ">Open in Google Map</p>
+              </div>
               </Link>
             </div>
         
         </div>
       </div>
+    
     </div>
   );
 };
