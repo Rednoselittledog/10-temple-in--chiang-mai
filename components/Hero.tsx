@@ -103,8 +103,8 @@ const Hero = () => {
             : ""
         }
       >
-        <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300" : "fixed left-[-100%] top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300"}>
-        <div className="flex flex-col w-full items-start justify-between overflow-scroll">
+        <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300 overflow-scroll" : "fixed left-[-100%] top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300"}>
+        <div className="flex flex-col w-full items-start justify-between ">
             <div onClick={handleNav} className="xl:hidden w-full flex justify-end pb-3">
                 <AiOutlineClose
                   color={"black"}
