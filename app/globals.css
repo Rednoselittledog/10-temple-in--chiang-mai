@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-container{
-  @apply flex flex-row lg:px-14 px-0 w-full
+  @apply flex flex-row px-0 w-full
 }
 
 .running-number{
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-container{
-  @apply w-full overflow-clip px-14 flex justify-center
+  @apply w-full overflow-clip  flex justify-center
 }
 
 .image-container img{
@@ -59,12 +59,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .description-box{
-  @apply lg:px-14 sm:px-0  whitespace-pre-wrap
+  @apply  sm:px-0  whitespace-pre-wrap
 }
 
 
 .map{
-  @apply pt-5 w-full overflow-clip lg:px-14 sm:px-0 relative 
+  @apply pt-5 w-full overflow-clip  sm:px-0 relative 
 }
 
 
@@ -75,8 +75,13 @@ h1, h2, h3, h4, h5, h6 {
   .h-300 {
     height: 400px; /* Adjust the value as needed */
   }
-  .map img{
+  .map-img{
     @apply h-200 lg:h-300 w-full mx-auto ;
+  }
+
+  .map-img-2{
+    height: 100%;
+    width: auto;
   }
 }
 

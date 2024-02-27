@@ -7,7 +7,7 @@ const TemplePage = ({num, name, district, img, description} : TemplePageProps) =
     const space = '      ';
   return (
 
-    <div className='page flex flex-col items-center px-10 py-10'>
+    <div className='page flex flex-col items-center px-10 py-16'>
             <div className='title-container'>
                 <p className='running-number'>{num}</p>
                 <div className='title-text-container'>
@@ -19,7 +19,7 @@ const TemplePage = ({num, name, district, img, description} : TemplePageProps) =
                     </div>
                 </div>
             </div>
-            <div className='image-container'>
+            <div className='image-container py-5'>
                 <img src={img} alt={name} />
 
             </div>
@@ -27,7 +27,7 @@ const TemplePage = ({num, name, district, img, description} : TemplePageProps) =
                 <p>{'        '}{description}</p>
             </div>
             <div className='map'>
-                <img src="/Images/map-bg.png" alt="map-bg" className='map-bg'/>
+                <img src="/Images/map-bg.png" alt="map-bg" className='map-img'/>
                 <div className='map-button'>
                     Map
                 </div>
