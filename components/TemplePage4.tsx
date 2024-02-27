@@ -3,7 +3,7 @@ import React from 'react'
 
 const TemplePage4 = ({num, name, district, img, description} : TemplePageProps) => {
   return (
-    <div className='page  px-10 py-10'>
+    <div className='page  p-5 md:p-10'>
         <div className='h-full flex flex-col items-center shadow-xl shadow-slate-500 px-7 py-10 justify-center rounded-xl'>
             <div className='title-container'>
             <p className='running-number '>{num}</p>
