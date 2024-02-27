@@ -1,5 +1,7 @@
 import {
   Gallery,
+  Hero,
+  Navbar,
   TemplePage,
   TemplePage2,
   TemplePage3,
@@ -10,8 +12,10 @@ import data from "@/data.json";
 export default function Home() {
   let temple_data = data.data;
   return (
-    <main className="w-screen">
-
+    <main className="w-screen ">
+        <Hero/>
+     
+      
       {temple_data.map((item:any,index:any)=>{
         return(
           <li key={index}> 

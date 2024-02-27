@@ -11,7 +11,7 @@ const TemplePage2 = ({
   url,
 }: TemplePageProps) => {
   return (
-    <div className="page flex flex-col items-center px-10 py-10">
+    <div className="page flex flex-col items-center px-10 pt-32">
       <div className="title-container">
         <p className="running-number ">{num}</p>
         <div className="title-text-container">

@@ -54,7 +54,11 @@ h1, h2, h3, h4, h5, h6 {
 .image-container img{
   height: 100%;
   width: auto;
-  /* margin: auto; */
+  object-fit: cover;
+}
+
+.auto-img-y{
+  height: auto;
   object-fit: cover;
 }
 

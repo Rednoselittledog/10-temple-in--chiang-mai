@@ -11,7 +11,7 @@ const Gallery = (source: any, name: string) => {
        <hr className="border h-1 bg-gray-600 border-gray-600 my-4 w-full"/>
       <div className="flex flex-col justify-between">
         <p className="md:text-4xl text-2xl font-bold py-8 px-4">
-          สถานที่ท่องเที่ยวอื่น ๆ ในเชียงใหม่
+        Other tourist attractions in Chiang Mai
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 p-4">
           {data.map((item: any, index:any) => {
