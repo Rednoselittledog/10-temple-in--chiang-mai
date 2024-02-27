@@ -14,9 +14,12 @@ const Gallery = (source: any, name: string) => {
           สถานที่ท่องเที่ยวอื่น ๆ ในเชียงใหม่
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 p-4">
-          {data.map((item: any) => {
+          {data.map((item: any, index:any) => {
             return (
-              <GalleryItems img={item.img} name={item.name} url={item.url} />
+              <li key={index}>
+
+                <GalleryItems img={item.img} name={item.name} url={item.url} />
+              </li>
             );
           })}
           
