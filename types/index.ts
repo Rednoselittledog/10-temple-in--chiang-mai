@@ -1,6 +1,7 @@
 export interface GalleryItemProps{
     name : string, 
     img : string, 
+    url : string
 }
 
 export interface TemplePageProps{

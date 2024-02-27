@@ -88,3 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 .map-button{
   @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-20%] px-10  py-2 bg-red-500 text-white rounded-lg font-bold
 }
+
+.inbox-for-p10{
+  height: 100vh;
+  padding-bottom: 80px;
+}

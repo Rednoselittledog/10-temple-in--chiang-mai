@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="w-screen">
       
-      <TemplePage
+      <TemplePage2
         num={Number(temple_data[1].num)}
         name={String(temple_data[1].name)}
         district={String(temple_data[1].district)}
@@ -28,7 +28,7 @@ export default function Home() {
         description={String(temple_data[2].description)}
       />
 
-      <TemplePage3
+      <TemplePage2
         num={Number(temple_data[3].num)}
         name={String(temple_data[3].name)}
         district={String(temple_data[3].district)}
@@ -36,7 +36,7 @@ export default function Home() {
         description={String(temple_data[3].description)}
       />
 
-      <TemplePage4
+      <TemplePage2
         num={Number(temple_data[4].num)}
         name={String(temple_data[4].name)}
         district={String(temple_data[4].district)}
@@ -44,7 +44,7 @@ export default function Home() {
         description={String(temple_data[4].description)}
       />
 
-      <TemplePage4
+      <TemplePage2
         num={Number(temple_data[5].num)}
         name={String(temple_data[5].name)}
         district={String(temple_data[5].district)}
@@ -52,7 +52,7 @@ export default function Home() {
         description={String(temple_data[5].description)}
       />
 
-      <TemplePage4
+      <TemplePage2
         num={Number(temple_data[6].num)}
         name={String(temple_data[6].name)}
         district={String(temple_data[6].district)}
@@ -60,7 +60,7 @@ export default function Home() {
         description={String(temple_data[6].description)}
       />
 
-      <TemplePage4
+      <TemplePage2
         num={Number(temple_data[7].num)}
         name={String(temple_data[7].name)}
         district={String(temple_data[7].district)}
@@ -68,7 +68,7 @@ export default function Home() {
         description={String(temple_data[7].description)}
       />
 
-      <TemplePage4
+      <TemplePage2
         num={Number(temple_data[8].num)}
         name={String(temple_data[8].name)}
         district={String(temple_data[8].district)}
@@ -76,7 +76,7 @@ export default function Home() {
         description={String(temple_data[8].description)}
       />
 
-      <TemplePage4
+      <TemplePage2
         num={Number(temple_data[9].num)}
         name={String(temple_data[9].name)}
         district={String(temple_data[9].district)}
@@ -84,14 +84,13 @@ export default function Home() {
         description={String(temple_data[9].description)}
       />
 
-      <TemplePage4
+      <TemplePage2
         num={Number(temple_data[10].num)}
         name={String(temple_data[10].name)}
         district={String(temple_data[10].district)}
         img={String(temple_data[10].img)}
         description={String(temple_data[10].description)}
       />
-      
       <Gallery />
     </main>
   );
