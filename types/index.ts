@@ -10,4 +10,5 @@ export interface TemplePageProps{
     district : string,
     img : string,
     description : string,
+    url : string
 }
