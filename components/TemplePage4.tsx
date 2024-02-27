@@ -1,10 +1,11 @@
 import { TemplePageProps } from '@/types'
 import React from 'react'
 
-const TemplePage2 = ({num, name, district, img, description} : TemplePageProps) => {
+const TemplePage4 = ({num, name, district, img, description} : TemplePageProps) => {
   return (
-    <div className='page flex flex-col items-center px-10 py-16'>
-        <div className='title-container'>
+    <div className='page  px-10 py-10'>
+        <div className='h-full flex flex-col items-center shadow-xl shadow-slate-500 px-7 py-10 justify-center rounded-xl'>
+            <div className='title-container'>
             <p className='running-number '>{num}</p>
             <div className='title-text-container'>
                 <div className='title-text-main'>
@@ -33,9 +34,11 @@ const TemplePage2 = ({num, name, district, img, description} : TemplePageProps) 
             </div>
             </div>
         </div>
+        </div>
+        
     </div>
     
   )
 }
 
-export default TemplePage2
+export default TemplePage4

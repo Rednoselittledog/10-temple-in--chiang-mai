@@ -28,11 +28,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-container{
-  @apply flex flex-row px-0 w-full
+  @apply flex flex-row px-0 w-full 
 }
 
 .running-number{
-  @apply text-8xl font-bold text-blue-500 mr-4
+  @apply md:text-8xl text-7xl font-bold text-blue-500 mr-4 
 }
 
 .title-text-container{
@@ -40,11 +40,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-text-main{
-  @apply text-5xl font-bold 
+  @apply md:text-5xl text-xl font-bold 
 }
 
 .title-text-sub{
-  @apply text-3xl text-gray-500
+  @apply md:text-3xl text-lg text-gray-500
 }
 
 .image-container{

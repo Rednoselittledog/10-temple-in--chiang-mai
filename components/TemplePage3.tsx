@@ -1,13 +1,10 @@
-import { TemplePageProps } from '@/types'
 import React from 'react'
-import Image from 'next/image'
+import { TemplePageProps } from '@/types'
 
-
-const TemplePage = ({num, name, district, img, description} : TemplePageProps) => {
-    const space = '      ';
+const TemplePage3 = ({num, name, district, img, description} : TemplePageProps) => {
   return (
-
-    <div className='page flex flex-col items-center px-10 py-16'>
+    <div className='page  px-10 py-10'>
+        <div className='h-full flex flex-col items-center shadow-xl shadow-slate-500 p-5 rounded-xl'>
             <div className='title-container'>
                 <p className='running-number'>{num}</p>
                 <div className='title-text-container'>
@@ -32,8 +29,10 @@ const TemplePage = ({num, name, district, img, description} : TemplePageProps) =
                     Map
                 </div>
             </div>
+        </div>
+            
     </div>
   )
 }
 
-export default TemplePage
+export default TemplePage3
