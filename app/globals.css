@@ -26,3 +26,60 @@ h1, h2, h3, h4, h5, h6 {
 .padding-y {
   @apply py-4;
 }
+
+.title-container{
+  @apply flex flex-row lg:px-14 px-0 w-full
+}
+
+.running-number{
+  @apply text-8xl font-bold text-blue-500 mr-4
+}
+
+.title-text-container{
+  @apply flex flex-col pt-2
+}
+
+.title-text-main{
+  @apply text-5xl font-bold 
+}
+
+.title-text-sub{
+  @apply text-3xl text-gray-500
+}
+
+.image-container{
+  @apply w-full overflow-clip px-14 flex justify-center
+}
+
+.image-container img{
+  height: 100%;
+  width: auto;
+  /* margin: auto; */
+  object-fit: cover;
+}
+
+.description-box{
+  @apply lg:px-14 sm:px-0  whitespace-pre-wrap
+}
+
+
+.map{
+  @apply pt-5 w-full overflow-clip lg:px-14 sm:px-0 relative 
+}
+
+
+@layer base{
+  .h-200 {
+    height: 200px; /* Adjust the value as needed */
+  }
+  .h-300 {
+    height: 400px; /* Adjust the value as needed */
+  }
+  .map img{
+    @apply h-200 lg:h-300 w-full mx-auto ;
+  }
+}
+
+.map-button{
+  @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-20%] px-10  py-2 bg-red-500 text-white rounded-lg font-bold
+}
