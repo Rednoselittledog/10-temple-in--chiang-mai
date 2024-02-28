@@ -1,4 +1,5 @@
 export interface GalleryItemProps{
+    num:number,
     name : string, 
     img : string, 
     url : string

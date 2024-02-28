@@ -112,8 +112,8 @@ const Hero = () => {
             </div>
             {temple_data.map((item: any, index: any) => {
                 return (
-                    <li key={index} className="py-2 border-b-2  w-full"onClick={handleNav}>
-                        <Link href={`/#${item.name}`} className="text-blackfont-semibold"
+                    <li key={index} className="py-2 border-b-2  w-full"onClick={handleNav} >
+                        <Link href={`/#${item.name}` } className="text-black font-semibold"  style={{ textDecoration: 'none' }}
                         >{item.name}</Link>
                     </li>
               );

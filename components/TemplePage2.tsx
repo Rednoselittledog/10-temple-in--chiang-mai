@@ -26,10 +26,9 @@ const TemplePage2 = ({
           <div className="image-container col-span-3 ">
             <img src={img} alt={name} />
           </div>
-          <div className=" col-span-2 flex flex-col lg:mt-0 mt-5">
+          <div className=" col-span-2 flex flex-col lg:mt-0">
             <div className="description-box ">
               <p>
-                {"        "}
                 {description}
               </p>
             </div>
