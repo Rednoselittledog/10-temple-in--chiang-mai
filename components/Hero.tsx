@@ -61,7 +61,7 @@ const Hero = () => {
 
 
   return (
-    <div className="page flex flex-col relative">
+    <div className="page flex flex-col relative" id = 'home'>
       {/* navbar */}
       <div
         className={
@@ -72,12 +72,16 @@ const Hero = () => {
         ref={objectRef}
       >
         <div className="flex flex-row justify-center items-center w-full h-full px-10 2xl:px-16">
-            <div onClick={handleNav} className=" w-full flex justify-between items-center">
-            <p className="text-xl my-auto">10 hit Temples in Chiang Mai</p>
+            <div  className=" w-full flex justify-between items-center">
+            <Link href={'/#home'}  style={{ textDecoration: 'none' }}>
+              <p className="text-xl my-auto text-black">10 hit Temples in Chiang Mai</p>
+            </Link>
+            <div onClick={handleNav}>
             <IoMenu
               color={"black"}
               size={25}
-            />
+              />
+              </div>
           </div>
         </div>
       </div>

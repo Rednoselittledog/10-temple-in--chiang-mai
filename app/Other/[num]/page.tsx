@@ -1,6 +1,6 @@
 import React from 'react'
 import relate_stories from '@/relate_stories.json';
-import { TemplePage2 } from '@/components';
+import { TemplePage, TemplePage2 } from '@/components';
 let data = relate_stories.data
 
 const page = ({ params }: { params: { num: string } }) => {
