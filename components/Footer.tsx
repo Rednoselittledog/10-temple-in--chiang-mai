@@ -3,11 +3,14 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='p-10 bg-slate-800'>
-        <p className='p-2 font-bold text-4xl text-white underline'>Members</p>
-        <p className='px-2 py-1 md:text-lg text-sm text-white whitespace-nowrap'>Natthapa  Khamchina 02-4</p>
-        <p className='px-2 py-1 md:text-lg text-sm text-white whitespace-nowrap'>Phusanisa  Akkarahiranpak 29-7</p>
-        <p className='px-2 py-1 md:text-lg text-sm text-white whitespace-nowrap'>Siribongkot  Yospimsarn 30-5</p>
-        <p className='px-2 py-1 md:text-lg text-sm text-white whitespace-nowrap'>Thidaporn  Leewirat 37-0</p>
+        <p className='p-2 font-bold text-4xl text-white underline'>Contact us</p>
+        <div className='flex flex-row justify-start items-center'>
+
+        <p className='px-2 py-1 md:text-lg text-sm text-white whitespace-nowrap'>NThidapron_le65@live.rmutl.ac.th</p>
+        <p className='px-2 py-1 md:text-lg text-sm text-white whitespace-nowrap'>Thidapron_le65@live.rmutl.ac.th</p>
+        <p className='px-2 py-1 md:text-lg text-sm text-white whitespace-nowrap'>Natthapha_kh65@live.rmutl.ac.th</p>
+        <p className='px-2 py-1 md:text-lg text-sm text-white whitespace-nowrap'>Phusanisa_pa65@live.rmutl.ac.th</p>
+        </div>
 
         
     </div>
