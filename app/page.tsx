@@ -9,12 +9,12 @@ import {
 } from "@/components";
 import Image from "next/image";
 import data from "@/data.json";
+import Footer from "@/components/Footer";
 export default function Home() {
   let temple_data = data.data;
   return (
     <main className="w-screen ">
         <Hero/>
-     
       
       {temple_data.map((item:any,index:any)=>{
         return(
@@ -32,7 +32,7 @@ export default function Home() {
       })}
 
       <Gallery />
-
+      <Footer/>
     </main>
   );
 }

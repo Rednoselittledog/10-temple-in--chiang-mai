@@ -5,6 +5,7 @@ import TemplePage3 from "./TemplePage3";
 import TemplePage4 from "./TemplePage4";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 export{
     Gallery,
     TemplePage,
