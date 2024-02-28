@@ -73,18 +73,18 @@ const Hero = () => {
       >
         <div className="flex flex-row justify-between items-center w-full h-full px-10 2xl:px-16">
             
+          <div className="hidden">
                {temple_data.map((item: any, index: any) => {
                 return (
-                  <div className="hidden">
                     <li key={index} className="xl:flex xl:flex-row hidden">
                         <Link href={`/#${item.name}`} className={`text-${!fix ? "black" : "white"} 
                          font-medium`}>{item.name}</Link>
                         <p className={!fix ? "px-1 text-blue-500 font-bold" : "px-1 text-balck font-bold"}>{index<9?"|":""}</p>
                         {/* <p className="px-1">{index}</p> */}
                     </li>
-                  </div>
               );
             })} 
+            </div>
             
             <div onClick={handleNav} className=" w-full flex justify-end">
                 

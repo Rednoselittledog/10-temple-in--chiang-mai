@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import { useEffect } from 'react';
 import data from "@/data.json";
+import Image from 'next/image';
 let temple_data = data.data;
 
 const CarouselBG = () => {
@@ -93,6 +94,7 @@ const CarouselBG = () => {
         
 
     </Carousel>
+
   )
 }
 

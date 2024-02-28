@@ -113,3 +113,6 @@ li{
 .carousel-img{
   @apply xl:h-screen h-full w-screen object-cover
 }
+
+/* "eslint": "^8",
+ "eslint-config-next": "14.1.0", */
