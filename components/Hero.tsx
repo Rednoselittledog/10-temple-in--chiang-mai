@@ -1,12 +1,14 @@
 "use client";
 import React, { useRef } from "react";
 import { useState, useEffect } from "react";
-import Navbar from "./Navbar";
-import { IoMenu } from "react-icons/io5";
 import data from "@/data.json";
 import Link from "next/link";
-import { AiOutlineClose } from "react-icons/ai";
 let temple_data = data.data;
+import { IoMenu } from "react-icons/io5";
+import { AiOutlineClose } from "react-icons/ai";
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { CarouselBG } from ".";
 
 const Hero = () => {
   const objectRef = useRef(null);
@@ -56,8 +58,11 @@ const Hero = () => {
     // return () => window.removeEventListener('resize', checkOverlappingRectangles);
   }, [objectRef.current, overlayRef.current]);
 
+
+
   return (
     <div className="page flex flex-col relative">
+      {/* navbar */}
       <div
         className={
           !fix
@@ -70,42 +75,51 @@ const Hero = () => {
             
                {temple_data.map((item: any, index: any) => {
                 return (
+                  <div className="hidden">
                     <li key={index} className="xl:flex xl:flex-row hidden">
                         <Link href={`/#${item.name}`} className={`text-${!fix ? "black" : "white"} 
                          font-medium`}>{item.name}</Link>
                         <p className={!fix ? "px-1 text-blue-500 font-bold" : "px-1 text-balck font-bold"}>{index<9?"|":""}</p>
                         {/* <p className="px-1">{index}</p> */}
                     </li>
+                  </div>
               );
             })} 
             
-            <div onClick={handleNav} className="xl:hidden w-full flex justify-end">
+            <div onClick={handleNav} className=" w-full flex justify-end">
                 
             <IoMenu
-              color={!fix ? "black" : "white"}
+              color={!fix ? "black" : "black"}
               size={25}
             />
           </div>
         </div>
       </div>
 
-      <div className=" w-full overflow-clip" ref={overlayRef}>
+      {/* bg */}
+      {/* <div className=" w-full overflow-clip" ref={overlayRef}>
         <img
           src="/Images/hero.png"
           alt="10 must-see temples in chaing mai"
           className="lg:h-screen w-full object-fit"
         />
+      </div> */}
+
+      <div className=" w-full overflow-clip" ref={overlayRef}>
+        <CarouselBG/>
       </div>
+
+      {/* sliding navbar */}
       <div
         className={
           nav
-            ? " xl:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-300 z-[200]"
+            ? "  fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-300 z-[200]"
             : ""
         }
       >
         <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300 overflow-scroll" : "fixed left-[-100%] top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300"}>
         <div className="flex flex-col w-full items-start justify-between ">
-            <div onClick={handleNav} className="xl:hidden w-full flex justify-end pb-3">
+            <div onClick={handleNav} className=" w-full flex justify-end pb-3">
                 <AiOutlineClose
                   color={"black"}
                   size={25}

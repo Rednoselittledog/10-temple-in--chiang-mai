@@ -1,7 +1,6 @@
 import {
   Gallery,
   Hero,
-  Navbar,
   TemplePage,
   TemplePage2,
   TemplePage3,

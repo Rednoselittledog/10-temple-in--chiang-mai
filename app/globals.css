@@ -100,4 +100,16 @@ h1, h2, h3, h4, h5, h6 {
 
 li{
   list-style-type:none;
-  }
+}
+
+.carousel-title{
+  @apply  lg:text-8xl text-2xl text-black font-extrabold outline-2 outline-red-500
+}
+
+.carousel-subtitle{
+  @apply  lg:text-5xl text-xl text-black font-semibold
+}
+
+.carousel-img{
+  @apply xl:h-screen h-full w-screen object-cover
+}

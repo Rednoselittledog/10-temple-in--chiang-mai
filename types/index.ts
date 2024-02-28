@@ -12,3 +12,7 @@ export interface TemplePageProps{
     description : string,
     url : string
 }
+
+export interface CarouselItemPropsForMap{
+    item : any
+}
