@@ -5,6 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { useEffect } from 'react';
 import data from "@/data.json";
 import Image from 'next/image';
+import Link from 'next/link';
 let temple_data = data.data;
 
 const CarouselBG = () => {
@@ -13,72 +14,99 @@ const CarouselBG = () => {
       <Carousel className=''>
 
         <Carousel.Item className=''> 
-          <img src={temple_data[0].img} alt='...' className='carousel-img'/>
+          <img src={'/Images/hero2.png'} alt='...' className='carousel-img'/>
           <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[0].name}</p>
+            {/* <p className='carousel-title'>{temple_data[0].name}</p> */}
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[1].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[0].name}`}>
+          <img src={temple_data[0].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
+          <Carousel.Caption>
+            {/* <p className='carousel-title'>{temple_data[0].name}</p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item className=''> 
+        <Link href={`/#${temple_data[1].name}`}>
+        <img src={temple_data[1].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[1].name}</p>
+            {/* <p className='carousel-title'>{temple_data[1].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[2].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[2].name}`}>
+        <img src={temple_data[2].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[2].name}</p>
+            {/* <p className='carousel-title'>{temple_data[2].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[3].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[3].name}`}>
+        <img src={temple_data[3].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[3].name}</p>
+            {/* <p className='carousel-title'>{temple_data[3].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[4].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[4].name}`}>
+        <img src={temple_data[4].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[4].name}</p>
+            {/* <p className='carousel-title'>{temple_data[4].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[5].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[5].name}`}>
+        <img src={temple_data[5].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[5].name}</p>
+            {/* <p className='carousel-title'>{temple_data[5].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[6].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[6].name}`}>
+        <img src={temple_data[6].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[6].name}</p>
+            {/* <p className='carousel-title'>{temple_data[6].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[7].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[7].name}`}>
+        <img src={temple_data[7].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[7].name}</p>
+            {/* <p className='carousel-title'>{temple_data[7].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[8].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[8].name}`}>
+        <img src={temple_data[8].carousel_img} alt='...' className='carousel-img'/>
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[8].name}</p>
+            {/* <p className='carousel-title'>{temple_data[8].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className=''> 
-        <img src={temple_data[9].img} alt='...' className='carousel-img'/>
+        <Link href={`/#${temple_data[9].name}`}>
+        <img src={temple_data[9].carousel_img} alt='...' className='carousel-img'/> 
+        </Link>
         <Carousel.Caption>
-            <p className='carousel-title'>{temple_data[9].name}</p>
+            {/* <p className='carousel-title'>{temple_data[9].name}</p> */}
         </Carousel.Caption>
         </Carousel.Item>
         
