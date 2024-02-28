@@ -71,8 +71,9 @@ const Hero = () => {
         }
         ref={objectRef}
       >
-        <div className="flex flex-row justify-between items-center w-full h-full px-10 2xl:px-16">
-            <div onClick={handleNav} className=" w-full flex justify-end">
+        <div className="flex flex-row justify-center items-center w-full h-full px-10 2xl:px-16">
+            <div onClick={handleNav} className=" w-full flex justify-between items-center">
+            <p className="text-xl my-auto">10 hit Temples in Chiang Mai</p>
             <IoMenu
               color={"black"}
               size={25}
