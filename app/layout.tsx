@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Mitr } from "next/font/google";
-import { Sofia } from "next/font/google";
+import { Luckiest_Guy } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 const mitr = Mitr({ weight: '400',subsets: ['latin'],display: 'swap', });
-const sofia = Sofia({ weight: '400',subsets: ['latin'],display: 'swap', });
+const lucki = Luckiest_Guy({ weight: '400',subsets: ['latin'],display: 'swap', });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sofia.className}>{children}</body>
+      <body className={lucki.className}>{children}</body>
     </html>
   );
 }
