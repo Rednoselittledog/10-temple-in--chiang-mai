@@ -103,11 +103,11 @@ li{
 }
 
 .carousel-title{
-  @apply  lg:text-8xl text-2xl text-black font-extrabold outline-2 outline-red-500
+  @apply  md:pb-10 pb-5 md:text-8xl text-2xl text-black font-extrabold 
 }
 
 .carousel-subtitle{
-  @apply  lg:text-5xl text-xl text-black font-semibold
+  @apply  md:text-5xl text-xl text-black font-semibold
 }
 
 .carousel-img{

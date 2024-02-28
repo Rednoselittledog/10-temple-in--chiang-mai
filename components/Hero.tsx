@@ -66,30 +66,15 @@ const Hero = () => {
       <div
         className={
           !fix
-            ? "w-full h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-white"
-            : "w-full z-[100] fixed top-0 h-14 md:h-18 left-0 bg-transparent"
+            ? "w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-white"
+            : "w-screen z-[100] fixed top-0 h-14 md:h-18 left-0 bg-transparent"
         }
         ref={objectRef}
       >
         <div className="flex flex-row justify-between items-center w-full h-full px-10 2xl:px-16">
-            
-          <div className="hidden">
-               {temple_data.map((item: any, index: any) => {
-                return (
-                    <li key={index} className="xl:flex xl:flex-row hidden">
-                        <Link href={`/#${item.name}`} className={`text-${!fix ? "black" : "white"} 
-                         font-medium`}>{item.name}</Link>
-                        <p className={!fix ? "px-1 text-blue-500 font-bold" : "px-1 text-balck font-bold"}>{index<9?"|":""}</p>
-                        {/* <p className="px-1">{index}</p> */}
-                    </li>
-              );
-            })} 
-            </div>
-            
             <div onClick={handleNav} className=" w-full flex justify-end">
-                
             <IoMenu
-              color={!fix ? "black" : "black"}
+              color={"black"}
               size={25}
             />
           </div>
@@ -105,8 +90,8 @@ const Hero = () => {
         />
       </div> */}
 
-      <div className=" w-full overflow-clip" ref={overlayRef}>
-        <CarouselBG/>
+      <div ref={overlayRef}>
+        <CarouselBG />
       </div>
 
       {/* sliding navbar */}
@@ -117,7 +102,7 @@ const Hero = () => {
             : ""
         }
       >
-        <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300 overflow-scroll" : "fixed left-[-100%] top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300"}>
+        <div className={nav ? " fixed left-0 top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300 overflow-scroll" : " fixed left-[-100%] top-0 w-[75%] sm:w-[45%] h-screen bg-white p-5 ease-in duration-300"}>
         <div className="flex flex-col w-full items-start justify-between ">
             <div onClick={handleNav} className=" w-full flex justify-end pb-3">
                 <AiOutlineClose
