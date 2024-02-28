@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   let temple_data = data.data;
   return (
-    <main className="w-screen ">
+    <main className="w-screen overflow-clip">
         <Hero/>
       
       {temple_data.map((item:any,index:any)=>{
