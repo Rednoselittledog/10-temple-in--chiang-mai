@@ -1,15 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap') */
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+  font-family: "Luckiest Guy", cursive;
+  
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   @apply font-bold;
@@ -25,6 +29,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .padding-y {
   @apply py-4;
+}
+
+@layer base{
+
+  .h-200 {
+    height: 200px; /* Adjust the value as needed */
+  }
+  .h-300 {
+    height: 400px; /* Adjust the value as needed */
+  }
+  .map-img{
+    @apply h-200 lg:h-300 w-full mx-auto ;
+  }
+
+  .map-img-2{
+    height: 100%;
+    width: auto;
+  }
 }
 
 .title-container{
@@ -72,22 +94,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@layer base{
-  .h-200 {
-    height: 200px; /* Adjust the value as needed */
-  }
-  .h-300 {
-    height: 400px; /* Adjust the value as needed */
-  }
-  .map-img{
-    @apply h-200 lg:h-300 w-full mx-auto ;
-  }
-
-  .map-img-2{
-    height: 100%;
-    width: auto;
-  }
-}
 
 .map-button{
   @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-20%] px-5 md:px-10 py-2 bg-blue-500 rounded-lg 
@@ -113,6 +119,7 @@ li{
 .carousel-img{
   @apply xl:h-screen h-full w-screen object-cover
 }
+
 
 /* "eslint": "^8",
  "eslint-config-next": "14.1.0", */

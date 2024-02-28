@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const GalleryItems = ({num, img, name, url}:GalleryItemProps) => {
   return (
-    <div>
+    <div className='h-full'>
       <Link href={`https://templesinchiangmai.vercel.app/Other/${num}`} style={{ textDecoration: 'none' }}>
         <div className='flex flex-wrap shadow-md shadow-gray-300 h-full'>
           <div className=' w-full overflow-clip  flex justify-center'>
