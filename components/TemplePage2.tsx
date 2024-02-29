@@ -12,9 +12,10 @@ const TemplePage2 = ({
   url,
 }: TemplePageProps) => {
   return (
-    <div className="page flex flex-col items-center " id={name}>
-      <div className=" px-10 py-2 xl:py-10 flex flex-col items-center">
-        <div className="title-container md:pt-12 ">
+    <div className="page flex flex-col items-center" id={name}>
+      <div className="h-full px-10 pt-16 flex flex-col items-center">
+
+        <div className="title-container ">
           <p className="running-number ">{num}</p>
           <div className="title-text-container">
             <div className="title-text-main">{name}</div>
