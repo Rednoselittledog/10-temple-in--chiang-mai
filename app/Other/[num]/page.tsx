@@ -6,7 +6,6 @@ let data = relate_stories.data
 const page = ({ params }: { params: { num: string } }) => {
     let index : number = Number(params.num)
     let item = data[index-1]
-    console.log(item)
   return (
         
         <main className='w-screen'>

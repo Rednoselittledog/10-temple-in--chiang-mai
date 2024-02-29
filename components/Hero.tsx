@@ -75,7 +75,7 @@ const Hero = () => {
             </Link>
             <div onClick={handleNav}>
             <IoMenu
-              color={!fix?'white':'black'}
+              color={!fix?'black':'black'}
               size={25}
               />
               </div>

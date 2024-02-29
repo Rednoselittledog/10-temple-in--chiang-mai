@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .running-number{
-  @apply md:text-8xl text-7xl font-bold text-blue-500 mr-4 text-title
+  @apply md:text-8xl text-7xl font-bold  mr-4 text-title
 }
 
 .title-text-container{
@@ -131,16 +131,16 @@ li{
 }
 
 .bg-main-color{
-  @apply bg-blue-500 
+  @apply bg-yellow-100
 }
 .bg-sub-color{
   @apply bg-white
 }
 .border-main-color{
-  @apply border-blue-500
+  @apply border-yellow-100
 }
 .text-main-color{
-  @apply text-white
+  @apply text-black
 }
 .text-sub-color{
   @apply text-black
