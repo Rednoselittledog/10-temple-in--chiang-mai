@@ -8,7 +8,7 @@ const page = ({ params }: { params: { num: string } }) => {
     let item = data[index-1]
     console.log(item)
   return (
-
+        
         <main className='w-screen'>
 
         <TemplePage2
