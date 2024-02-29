@@ -63,7 +63,7 @@ const Hero = () => {
       <div
         className={
           !fix
-            ? "w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-white"
+            ? "w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-main-color"
             : "w-screen z-[100] fixed top-0 h-14 md:h-18 left-0 bg-transparent"
         }
         ref={objectRef}
@@ -71,11 +71,11 @@ const Hero = () => {
         <div className="flex flex-row justify-center items-center w-full h-full px-10 2xl:px-16">
             <div  className=" w-full flex justify-between items-center">
             <Link href={'/#home'}  style={{ textDecoration: 'none' }}>
-              <p className="text-xl my-auto text-black">10 hit Temples in Chiang Mai</p>
+              <p className={`text-xl my-auto ${!fix?'text-main-color':'text-sub-color'}`}>10 hit Temples in Chiang Mai</p>
             </Link>
             <div onClick={handleNav}>
             <IoMenu
-              color={"black"}
+              color={!fix?'white':'black'}
               size={25}
               />
               </div>
@@ -114,7 +114,7 @@ const Hero = () => {
             </div>
             {temple_data.map((item: any, index: any) => {
                 return (
-                    <li key={index} className="py-2 border-b-2  w-full"onClick={handleNav} >
+                    <li key={index} className="py-2 border-b-2 border-b-blue-500 w-full"onClick={handleNav} >
                         <Link href={`/#${item.name}` } className="text-black font-semibold"  style={{ textDecoration: 'none' }}
                         >{item.name}</Link>
                     </li>

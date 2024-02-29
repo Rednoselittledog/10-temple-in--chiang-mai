@@ -129,6 +129,20 @@ li{
   @apply xl:h-screen h-full w-screen object-cover
 }
 
-
+.bg-main-color{
+  @apply bg-blue-500 
+}
+.bg-sub-color{
+  @apply bg-white
+}
+.border-main-color{
+  @apply border-blue-500
+}
+.text-main-color{
+  @apply text-white
+}
+.text-sub-color{
+  @apply text-black
+}
 /* "eslint": "^8",
  "eslint-config-next": "14.1.0", */

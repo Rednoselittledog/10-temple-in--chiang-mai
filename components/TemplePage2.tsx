@@ -57,7 +57,7 @@ const TemplePage2 = ({
             </div>
 
             <div className="map h-full md:pb-12 pb-5 ">
-              {/* <Link href={url}> */}
+              <Link href={url}>
                 <div className="image-container h-full relative ">
                   {/* <Image
                   src="/Images/map-bg.png"
@@ -76,7 +76,7 @@ const TemplePage2 = ({
                 <div className="map-button text-nowrap">
                   <p className="font-medium text-white m-auto">Open in Google Map</p>
                 </div>
-              {/* </Link> */}
+              </Link>
             </div>
           </div>
         </div>
