@@ -32,7 +32,7 @@ const TemplePage2 = ({
   }, [isPortrait]);
 
   return (
-    <div className={`page flex flex-col items-center ${isPortrait?'bg-red-500':'bg-blue-500'}`} id={name}>
+    <div className={`flex flex-col items-center ${!isPortrait?'page':'page-2'}`} id={name}>
       <div className="h-full px-10 pt-16 flex flex-col items-center">
 
         <div className="title-container ">

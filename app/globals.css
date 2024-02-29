@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
   @apply w-screen h-full md:h-screen
 }
 
+.page-2{
+  @apply w-screen h-full 
+}
+
 .padding-x {
   @apply sm:px-16 px-6;
 }
