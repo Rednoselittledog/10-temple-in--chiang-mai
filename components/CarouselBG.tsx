@@ -13,14 +13,14 @@ const CarouselBG = () => {
   return (
       <Carousel className=''>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
           <img src={'/Images/hero3.png'} alt='...' className='carousel-img'/>
           <Carousel.Caption>
             {/* <p className='carousel-title'>{temple_data[0].name}</p> */}
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[0].name}`}>
           <img src={temple_data[0].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -29,7 +29,7 @@ const CarouselBG = () => {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[1].name}`}>
         <img src={temple_data[1].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -38,7 +38,7 @@ const CarouselBG = () => {
         </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[2].name}`}>
         <img src={temple_data[2].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -47,7 +47,7 @@ const CarouselBG = () => {
         </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[3].name}`}>
         <img src={temple_data[3].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -56,7 +56,7 @@ const CarouselBG = () => {
         </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[4].name}`}>
         <img src={temple_data[4].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -65,7 +65,7 @@ const CarouselBG = () => {
         </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[5].name}`}>
         <img src={temple_data[5].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -74,7 +74,7 @@ const CarouselBG = () => {
         </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[6].name}`}>
         <img src={temple_data[6].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -83,7 +83,7 @@ const CarouselBG = () => {
         </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[7].name}`}>
         <img src={temple_data[7].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -92,7 +92,7 @@ const CarouselBG = () => {
         </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[8].name}`}>
         <img src={temple_data[8].carousel_img} alt='...' className='carousel-img'/>
         </Link>
@@ -101,7 +101,7 @@ const CarouselBG = () => {
         </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className=''> 
+        <Carousel.Item className='' interval={3000}> 
         <Link href={`/#${temple_data[9].name}`}>
         <img src={temple_data[9].carousel_img} alt='...' className='carousel-img'/> 
         </Link>
