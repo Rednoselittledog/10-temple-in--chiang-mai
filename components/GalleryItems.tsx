@@ -7,7 +7,7 @@ const GalleryItems = ({num, img, name, url}:GalleryItemProps) => {
   return (
     <div className='h-full'>
       <Link href={`https://templesinchiangmai.vercel.app/Other/${num}`} style={{ textDecoration: 'none' }}>
-        <div className='flex flex-wrap shadow-md shadow-gray-300 h-full'>
+        <div className='flex flex-wrap shadow-lg shadow-black h-full bg-sub-color'>
           <div className=' w-full overflow-clip  flex justify-center'>
              <img src={img} alt={name} className='h-40 w-full  object-cover'/>
           </div>         

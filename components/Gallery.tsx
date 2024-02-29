@@ -7,10 +7,10 @@ let data = relate_stories.data;
 
 const Gallery = (source: any, name: string) => {
   return (
-    <div className="page flex flex-col p-10 items-center justify-center py-16 ">
+    <div className="page flex flex-col p-10 items-center justify-center py-16 bg-main-color ">
        <hr className="border h-1 bg-gray-600 border-gray-600 my-4 w-full"/>
       <div className="flex flex-col justify-between">
-        <p className="md:text-4xl text-2xl font-bold py-8 px-4">
+        <p className="md:text-4xl text-2xl font-bold pt-8 pb-4 px-4 text-main-color text-title">
         Other tourist attractions in Chiang Mai
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 p-4">

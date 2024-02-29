@@ -52,7 +52,7 @@ const TemplePage5 = ({
             </div>
 
             <div className=" col-span-2 flex flex-col md:pb-5 pb-0 relative h-full ">
-              <div className="description-box ">
+              <div className={`description-box ${isPortrait?"pt-2":""}`}>
                 <p>
                   {description}
                 </p>
