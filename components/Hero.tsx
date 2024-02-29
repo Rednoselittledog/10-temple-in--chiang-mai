@@ -15,23 +15,12 @@ const Hero = () => {
   const overlayRef = useRef(null);
   const [fix, setFix] = useState(false);
   const [nav, setNav] = useState(false);
+  const [isPortrait, setIsPortrait] = useState(false);
   const handleNav = () => {
     setNav(!nav);
     console.log(nav)
   };
-  // useEffect(() =>{
-  //     const handleScroll = ()=>{
-  //       console.log("a : "+window.scrollY)
-  //         if(window.scrollY>742) {
-  //             setFix(true)
-  //         }
-  //         else{
-  //             setFix(false)
-  //         }
-  //     }
-  //     window.addEventListener('scroll',handleScroll);
-  //   },);
-
+  
   useEffect(() => {
     const checkOverlappingRectangles = () => {
       if (objectRef.current && overlayRef.current) {
@@ -55,13 +44,21 @@ const Hero = () => {
     checkOverlappingRectangles();
     window.addEventListener("scroll", checkOverlappingRectangles);
 
+    const mediaQuery = window.matchMedia("(orientation: portrait)");
+    setIsPortrait(mediaQuery.matches);
+
+    const handleOrientationChange = (event:any) => {
+      setIsPortrait(event.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleOrientationChange);
     // return () => window.removeEventListener('resize', checkOverlappingRectangles);
   }, [objectRef.current, overlayRef.current]);
 
 
 
   return (
-    <div className="page flex flex-col relative" id = 'home'>
+    <div className={` flex flex-col relative ${!isPortrait?'page':'page-2'}`} id = 'home'>
       {/* navbar */}
       <div
         className={
