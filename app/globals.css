@@ -10,13 +10,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Ubuntu", sans-serif;
 }
 
-/* p{
+.text-title{
   box-sizing: border-box;
-  font-family: "Jacquarda Bastarda 9", cursive;
-} */
+  font-family: "Luckiest Guy", cursive;
+  
+}
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,23 +60,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-container{
-  @apply flex flex-row px-0 w-full
+  @apply flex flex-row px-0 w-full 
 }
 
 .running-number{
-  @apply md:text-8xl text-7xl font-bold text-blue-500 mr-4 
+  @apply md:text-8xl text-7xl font-bold text-blue-500 mr-4 text-title
 }
 
 .title-text-container{
-  @apply flex flex-col pt-2
+  @apply flex flex-col pt-2 text-title
 }
 
 .title-text-main{
-  @apply md:text-5xl text-xl font-bold 
+  @apply md:text-5xl text-xl font-bold text-title
 }
 
 .title-text-sub{
-  @apply md:text-3xl text-lg text-gray-500
+  @apply md:text-3xl text-lg text-gray-500 text-title
 }
 
 .image-container{

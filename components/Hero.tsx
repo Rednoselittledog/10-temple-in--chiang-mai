@@ -71,7 +71,7 @@ const Hero = () => {
         <div className="flex flex-row justify-center items-center w-full h-full px-10 2xl:px-16">
             <div  className=" w-full flex justify-between items-center">
             <Link href={'/#home'}  style={{ textDecoration: 'none' }}>
-              <p className={`text-xl my-auto ${!fix?'text-main-color':'text-sub-color'}`}>10 hit Temples in Chiang Mai</p>
+              <p className={`text-xl my-auto text-title ${!fix?'text-main-color':'text-sub-color'}`}>10 hit Temples in Chiang Mai</p>
             </Link>
             <div onClick={handleNav}>
             <IoMenu
