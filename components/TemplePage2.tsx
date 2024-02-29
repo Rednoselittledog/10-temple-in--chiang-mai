@@ -16,9 +16,20 @@ const TemplePage2 = ({
   const [isPortrait, setIsPortrait] = useState(false);
 
   useEffect(() => {
-    setIsPortrait(window.matchMedia("(orientation: portrait)").matches)
-    console.log('portrait : ' + isPortrait)
-  }, [window.matchMedia("(orientation: portrait)")]);
+    const mediaQuery = window.matchMedia("(orientation: portrait)");
+    setIsPortrait(mediaQuery.matches);
+
+    const handleOrientationChange = (event:any) => {
+      setIsPortrait(event.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleOrientationChange);
+
+    // Clean up the event listener on unmount
+    return () => {
+      mediaQuery.removeEventListener("change", handleOrientationChange);
+    };
+  }, [isPortrait]);
 
   return (
     <div className={`page flex flex-col items-center ${isPortrait?'bg-red-500':'bg-blue-500'}`} id={name}>
