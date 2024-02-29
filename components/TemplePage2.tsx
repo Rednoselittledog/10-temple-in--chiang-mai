@@ -69,7 +69,7 @@ const TemplePage2 = ({
                 <img
                   src="/Images/map-bg.png"
                   alt="map-bg"
-                  className="md:map-img-2 map-img"
+                  className={`md:map-img-2 map-img`}
                 />
                 </div>
                 
