@@ -19,11 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <style>
+        <style>
         @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-        </style> */}
+        </style>
       </head>
-      <body className={luckiest_guy.className}>{children}</body>
+      <body >{children}</body>
     </html>
   );
 }
+// className={luckiest_guy.className}
