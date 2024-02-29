@@ -4,6 +4,7 @@ import { GalleryItemProps } from '@/types'
 import Link from 'next/link'
 
 const GalleryItems = ({num, img, name, url}:GalleryItemProps) => {
+  
   return (
     <div className='h-full'>
       <Link href={`https://templesinchiangmai.vercel.app/Other/${num}`} style={{ textDecoration: 'none' }}>

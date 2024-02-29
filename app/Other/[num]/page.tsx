@@ -1,6 +1,6 @@
 import React from 'react'
 import relate_stories from '@/relate_stories.json';
-import { TemplePage5 } from '@/components';
+import { TemplePage2 } from '@/components';
 let data = relate_stories.data
 
 const page = ({ params }: { params: { num: string } }) => {
@@ -8,7 +8,10 @@ const page = ({ params }: { params: { num: string } }) => {
     let item = data[index-1]
     console.log(item)
   return (
-    <TemplePage5
+
+        <main className='w-screen'>
+
+        <TemplePage2
             num={Number(item.num)}
             name={String(item.name)}
             district={String(item.district)}
@@ -16,6 +19,8 @@ const page = ({ params }: { params: { num: string } }) => {
             description={String(item.description)}
             url={String(item.url)}
             />
+    
+            </main>
   )
 }
 
