@@ -3,7 +3,7 @@
     {
       "num": 1,
       "name": "Wat Phra That Doi Suthep",
-      "district":"Doi Suthep",
+      "district":"Mueang Chiang Mai",
       "img":"/Images/temp1.webp",
       "carousel_img":"/Images/carousel/2.png",
       "description":"\t\tWat Phra That Doi Suthep (widely known as just Wat Doi Suthep) holds the title of the most-visited, most famous, and most highly revered temple in Chiang Mai. The journey up the winding mountain road to the entrance is an experience in itself, whether you’re doing it on a rented scooter, as part of a private excursion or sitting in a packed-out songthaew with the locals. The final leg of the journey requires you to climb 309 steps up to reach the 600-year-old golden chedi at the top, which towers above the surrounding temple building, the monks’ living quarters and the city of Chiang Mai.",
@@ -12,7 +12,7 @@
     {
         "num": 2,
         "name": "Wat Chedi Luang",
-        "district":"Old City",
+        "district":"Si Phum",
         "img":"/Images/temp2.webp",
         "carousel_img":"/Images/carousel/3.png",
         "description":"\t\tWat Chedi Luang is conveniently located right in the middle of the Old City, walking distance from many of most popular hotels and markets. Luang translates in the old Lanna language to something like \"very big\", and the enormous crumbling central structure certainly lives up to its name. The main chedi is 80 metres tall, making it the highest point in Chiang Mai’s Old City The temple complex dates all the way back to 1385, but has had various additions, re-builds and revamps since. It was once home to the highly-revered Emerald Buddha, which now takes pride of place in Bangkok’s Grand Palace.",
@@ -21,7 +21,7 @@
       {
         "num": 3,
         "name": "Wat Phra Singh",
-        "district":"Old City",
+        "district":"Phra Sing",
         "img":"/Images/temp3.webp",
         "carousel_img":"/Images/carousel/4.png",
         "description":"\t\tWat Phra Singh stands as one of the most visually impressive temples in Chiang Mai, partially thanks to a huge renovation in the 19th century, plus numerous licks of paint ever since. The main temple building is the star of the show, featuring those iconic slanted Lanna-style roofs and an intricately decorated façade that shines brightly in the sunlight.    There are various stupas and pagodas dotted around the grounds, which are free to enter. Walking distance from Wat Chedi Luang in the Old City, our recommendation is to fit in both during a morning or afternoon sightseeing trip on 2 feet or a tuk-tuk.",
@@ -30,7 +30,7 @@
       {
         "num": 4,
         "name": "Wat Suan Dok",
-        "district":"Doi Suthep",
+        "district":"Suthep",
         "img":"/Images/temp4.webp",
         "carousel_img":"/Images/carousel/5.png",
         "description":"\t\tWat Suan Dok is one of the less-visited temples in Chiang Mai but still definitely still worth a look for its shining array of brilliant-white chedis surrounding a glowing golden stupa. It’s located just outside the city walls on the road towards the University and Niman area, so it’s not exactly hard to find. Wat Suan Dok was built in the late 14th century and was originally intended to serve as a retreat for a revered monk from Sukhothai – the capital of Thailand at the time. There are free meditation classes and ‘monk chats’ Tuesdays, Thursdays and Saturdays from 5.30 pm to 9 pm.",
@@ -39,7 +39,7 @@
       {
         "num": 5,
         "name": "Wat Umong",
-        "district":"Doi Suthep",
+        "district":"Mueang Chiang Mai",
         "img":"/Images/temp5.webp",
         "carousel_img":"/Images/carousel/6.png",
         "description":"\t\tWat Umong certainly shows its 700-year age, despite numerous touch-ups over the years. The crumbling, weather-worn central stupa towers into the sky, set around a well-maintained tropical garden and smart-looking green lawns. While the main stupa provides a neat photo-op, there’s plenty more to do at Wat Umong. You can feed the fish and turtles in the garden’s main pond, walk around the ‘talking trees’ that offer words of advice (in Thai and English), and head underground to check out the series of ancient tunnels. Find it just beyond the airport, in the foothills of Doi Suthep Mountain.",
@@ -48,7 +48,7 @@
       {
         "num": 6,
         "name": "Wat Phra That Doi Kham",
-        "district":"Doi Suthep",
+        "district":"Mae Hia",
         "img":"/Images/temp6.webp",
         "carousel_img":"/Images/carousel/7.png",
         "description":"\t\tWat Phra That Doi Kham is mostly famous among locals for its huge seated Buddha, but is one of the lesser-known temples in Chiang Mai for foreign tourists thanks to its slightly out-of-the-way location. Nonetheless, it's just as spectacular as many of the more popular temples in the city. The Giant Buddha structure towers nearly 20 metres into the air, painted in bright white and gold. The whole temple complex dates back more than 1,000 years, with plenty of shrines, pagodas and relics to explore in the tropical garden area in the foothills of the Doi Suthep Mountain range. It is also known as \"the Temple of the Golden Mountain\".",
@@ -57,7 +57,7 @@
       {
         "num": 7,
         "name": "Wat Sri Suphan",
-        "district":"Old City",
+        "district":"Hai Ya",
         "img":"/Images/temp7.webp",
         "carousel_img":"/Images/carousel/8.png",
         "description":"\t\tWat Sri Suphan is a central Chiang Mai temple that really stands out from the rest with its shiny coat of silver paint that glistens brightly in the sunlight. The tips of the stupas are solid silver and they have a neon light display that makes the temple glow in multiple colours at night – a stunning sight indeed.\nThe temple complex actually dates back to the 16th century, although the main silver building is much newer, with additional halls and monks' buildings nearby. There's also a silver-working school housed here, which helps to pass on the traditions that led to the temple's creation. Find it just south of the Old City walls on Wualai Road, close to the weekend market.",
@@ -66,7 +66,7 @@
       {
         "num": 8,
         "name": "Wat Chiang Man",
-        "district":"Old City",
+        "district":"The corner of Ratchaphakhinai Road and Phra Poklao Road",
         "img":"/Images/temp8.webp",
         "carousel_img":"/Images/carousel/9.png",
         "description":"\t\tWat Chiang Man once served as the residence of the city’s founder, King Mengrai, shortly after its construction in the 13th century. That makes it one of the very oldest in the region. The temple itself is a glorious sight from every angle, with the old crumbling pagoda offering an insight into the rich history of Wat Chiang Man, while the newer temple hall presents a fine example of traditional Lanna architecture that has been well maintained over the years. Find it on Ratchaphakhinai Road, near the Chang Puak Gate in the northern part of the Old City.",
@@ -75,7 +75,7 @@
       {
         "num": 9,
         "name": "Wat Lok Moli",
-        "district":"Old City",
+        "district":"Mueang Chiang Mai District",
         "img":"/Images/temp9.webp",
         "carousel_img":"/Images/carousel/10.png",
         "description":"\t\tWat Lok Moli is well-known for its striking 3-tiered wooden roof and prime location very close to Chang Puak Gate, on the north edge of the Old City. The main temple hall has been well-restored, although the weathered chedi at the back shows the temple's true age, dating back to around the 14th century. Although Wat Lok Molee is located very central, it’s just hidden out of the way, meaning most tourists miss it, allowing it to enjoy a little more peace and tranquillity compared to some of the city’s other temples.",
@@ -84,7 +84,7 @@
       {
         "num": 10,
         "name": "Wat Phan Tao",
-        "district":"Old City",
+        "district":"Si Phum",
         "img":"/Images/temp10.webp",
         "carousel_img":"/Images/carousel/11.png",
         "description":"\t\tWat Phan Tao is a very modest neighbour to Wat Chedi Luang – the most famous temple in Chiang Mai’s Old City. Despite its size, it’s still well worth a look for its ornate decorations and detailed statues dotted around the garden. The temple's viharn (ceremonial hall) is one of the few remaining all-wood structures in Chiang Mai. The garden itself is often a hub for festivities during Yee Peng – Chiang Mai's unique version of Thailand's Loi Krathong festival, which focuses more on lanterns that float into the air instead of on the water.",
