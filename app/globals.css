@@ -11,8 +11,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Luckiest Guy", cursive;
-  font-optical-sizing: auto;  
 }
+
+/* p{
+  box-sizing: border-box;
+  font-family: "Jacquarda Bastarda 9", cursive;
+} */
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page {
-  @apply w-screen h-full lg:h-screen
+  @apply w-screen h-full
 }
 
 .padding-x {
@@ -70,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-container{
-  @apply w-full overflow-clip  flex justify-center
+  @apply w-full   flex justify-center
 }
 
 .image-container img{
@@ -85,18 +89,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .description-box{
-  @apply  sm:px-0  whitespace-pre-wrap
+  @apply  sm:px-0  whitespace-pre-wrap 
 }
 
 
 .map{
-  @apply pt-5 w-full overflow-clip  sm:px-0 relative 
+  @apply  w-full relative 
 }
 
 
 
 .map-button{
-  @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-20%] px-5 md:px-10 py-2 bg-blue-500 rounded-lg 
+  @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-80%] px-5 md:px-10 py-2 bg-blue-500 rounded-lg 
 }
 
 .inbox-for-p10{

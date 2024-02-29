@@ -14,7 +14,7 @@ const CarouselBG = () => {
       <Carousel className=''>
 
         <Carousel.Item className=''> 
-          <img src={'/Images/hero2.png'} alt='...' className='carousel-img'/>
+          <img src={'/Images/hero3.png'} alt='...' className='carousel-img'/>
           <Carousel.Caption>
             {/* <p className='carousel-title'>{temple_data[0].name}</p> */}
           </Carousel.Caption>
