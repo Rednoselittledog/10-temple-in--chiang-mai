@@ -51,7 +51,7 @@ const DirectionMap = ({from, to}:DirectionMapProps) => {
 
   return (
     <div className='w-full h-full'>
-        <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY as string}>
+        <APIProvider apiKey={'AIzaSyCvgy6yyBCzoj6WAhChG5dtEJhtq5Tfbfc'}>
             <Map defaultCenter={center} defaultZoom={20}>
                 <Directions/>
             </Map>
