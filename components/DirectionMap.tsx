@@ -50,8 +50,8 @@ const DirectionMap = ({from, to}:DirectionMapProps) => {
       }
 
   return (
-    <div className='w-full h-full'>
-        <APIProvider apiKey={'AIzaSyCvgy6yyBCzoj6WAhChG5dtEJhtq5Tfbfc'}>
+    <div className='w-full h-72'>
+        <APIProvider apiKey={'AIzaSyCvgy6yyBCzoj6WAhChG5dtEJhtq5Tfbfc'} >
             <Map defaultCenter={center} defaultZoom={20}>
                 <Directions/>
             </Map>
