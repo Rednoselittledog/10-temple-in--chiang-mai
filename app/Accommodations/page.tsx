@@ -1,6 +1,5 @@
 import {
     Gallery,
-    Hero,
     NavbarStatic,
     TemplePage5
   } from "@/components";
@@ -15,7 +14,7 @@ import Navbar from "@/components/Navbar";
         <div
         className="w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-main-color overflow-hidden sm:overflow-x-scroll"
       >
-        <NavbarStatic state={2}/>
+        <NavbarStatic state={4}/>
       </div>
         
         {temple_data.map((item:any,index:any)=>{
