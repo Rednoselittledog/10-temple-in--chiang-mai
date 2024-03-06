@@ -1,5 +1,5 @@
 'use client'
-import { TemplePageProps } from "@/types";
+import { AccommodationPageProps, TemplePageProps } from "@/types";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -11,11 +11,12 @@ import { useState, useEffect } from "react";
 const AccommodationPage = ({
   num,
   name,
+  temple_name,
   district,
   img,
   description,
   url,
-}: TemplePageProps) => {
+}: AccommodationPageProps) => {
   const [isPortrait, setIsPortrait] = useState(false);
 
   useEffect(() => {
@@ -45,7 +46,7 @@ const AccommodationPage = ({
             <div className="title-text-container">
               <div className="title-text-main">{name}</div>
 
-              <div className="title-text-sub">{district}</div>
+              <div className="title-text-sub">(near by {temple_name})</div>
             </div>
           </div>
 

@@ -3,6 +3,7 @@
       {
         "num": 1,
         "name": "Shane hotel",
+        "temple_name" : "Wat Phra That Doi Suthep",
         "district":"19 Huay Kaew Soi 3, Huay Kaew, Chiang Mai, Thailand, 50200",
         "img":"/Images/accommodations/1.png",
         "carousel_img":"",
@@ -13,6 +14,7 @@
       {
         "num": 2,
         "name": "BP Chiang Mai City Hotel Old Town",
+        "temple_name" : "Wat Chedi Luang",
         "district":"154 Ratchamankha Road, Old Town, Chiang Mai, Thailand, 50200",
         "img":"/Images/accommodations/2.png",
         "carousel_img":"",
@@ -23,6 +25,7 @@
       {
         "num": 3,
         "name": "Cozy Inn Chiang Mai",
+        "temple_name" : "Wat Phra Singh",
         "district":"5/1 Sam Lan Road, Soi 3, Phra Sing Subdistrict, Old Town, Chiang Mai, Thailand, 50200",
         "img":"/Images/accommodations/3.jpg",
         "carousel_img":"",
@@ -33,6 +36,7 @@
       {
         "num": 4,
         "name": "The Nimman Hotel",
+        "temple_name" : "Wat Suan Dok",
         "district":"29 Nimmanhaemin Road, Soi 17, Tambon Suthep A. Muang, Nimmanhaemin, Chiang Mai, Thailand, 50200",
         "img":"/Images/accommodations/4.jpg",
         "carousel_img":"",
@@ -43,6 +47,7 @@
       {
         "num": 5,
         "name": "B2 Suthep Night Market Premier Resort",
+        "temple_name" : "Wat Umong",
         "district":"99/9 Moo 14, Suthep Subdistrict, Mueang District, Chiang Mai Province, Suthep, Chiang Mai, Thailand, 50200",
         "img":"/Images/accommodations/5.jpg",
         "carousel_img":"",
@@ -53,6 +58,7 @@
       {
         "num": 6,
         "name": "Rajapruek Place",
+        "temple_name" : "Wat Phra That Doi Kham",
         "district":"Royal Park Rajapruek 334 Moo 3, Mae Hia Subdistrict, Mueang District, Chiang Mai Province 50100, Suthep, Chiang Mai, Thailand, 50100",
         "img":"/Images/accommodations/6.jpg",
         "carousel_img":"",
@@ -63,6 +69,7 @@
       {
         "num": 7,
         "name": "Romena Grand Hotel",
+        "temple_name" : "Wat Sri Suphan",
         "district":"2 Nantharam Road, Haiya Subdistrict, Mueang District, Wualai, Chiang Mai, Thailand, 50000",
         "img":"/Images/accommodations/7.jpg",
         "carousel_img":"",
@@ -73,6 +80,7 @@
       {
         "num": 8,
         "name": "Royal Peninsula Hotel Chiangmai",
+        "temple_name" : "Wat Chiang Man",
         "district":"9/9 Rd. Asadathorn, Si Phum Subdistrict, Chang Moi, Chiang Mai, Thailand, 50200",
         "img":"/Images/accommodations/8.jpg",
         "carousel_img":"",
@@ -83,6 +91,7 @@
       {
         "num": 9,
         "name": "Lotus Pang Suan Kaew Hotel",
+        "temple_name" : "Wat Lok Moli",
         "district":"21 Rd. Huai Kaew Subdistrict Suthep A. Muang, Huay Kaew, Chiang Mai, Thailand, 50200",
         "img":"/Images/accommodations/9.jpg",
         "carousel_img":"",
@@ -93,6 +102,7 @@
       {
         "num": 10,
         "name": "Imm Thaphae Chiang Mai Hotel",
+        "temple_name" : "Wat Phan Tao",
         "district":"17/1 Kochasan Road, Chang Klan, Mueang District, Tha Phae, Chiang Mai, Thailand, 50100",
         "img":"/Images/accommodations/10.jpg",
         "carousel_img":"",

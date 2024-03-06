@@ -14,6 +14,16 @@ export interface TemplePageProps{
     url : string
 }
 
+export interface AccommodationPageProps{
+    num : number,
+    name : string,
+    temple_name : string,
+    district : string,
+    img : string,
+    description : string,
+    url : string
+}
+
 export interface CarouselItemPropsForMap{
     item : any
 }

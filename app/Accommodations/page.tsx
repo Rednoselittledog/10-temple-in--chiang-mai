@@ -24,6 +24,7 @@ import Navbar from "@/components/Navbar";
               <AccommodationPage
               num={Number(item.num)}
               name={String(item.name)}
+              temple_name={String(item.temple_name)}
               district={String(item.district)}
               img={String(item.img)}
               description={String(item.description)}
