@@ -13,7 +13,7 @@ import Navbar from "@/components/Navbar";
     return (
       <main className="w-screen overflow-clip">
         <div
-        className="w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-main-color overflow-x-scroll"
+        className="w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-main-color md:overflow-x-scroll lg:overflow-hidden"
       >
         <NavbarStatic state={3}/>
       </div>

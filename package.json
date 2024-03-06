@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ashwamegh/react-link-preview": "^1.0.0",
     "@charmy.tech/react-native-stroke-text": "^1.0.3",
+    "@dhaiwat10/react-link-preview": "^1.15.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@fontsource/roboto": "^5.0.8",
+    "@microlink/react": "^5.5.18",
     "@mui/icons-material": "^5.15.11",
     "@mui/material": "^5.15.11",
     "@mui/styled-engine-sc": "^6.0.0-alpha.17",
@@ -23,7 +26,9 @@
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
-    "styled-components": "^6.1.8"
+    "react-link-previewer": "^1.0.8",
+    "styled-components": "^6.1.8",
+    "url": "^0.11.3"
   },
   "devDependencies": {
     "@types/node": "^20",

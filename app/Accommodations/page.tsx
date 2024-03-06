@@ -1,4 +1,5 @@
 import {
+  AccommodationPage,
     Gallery,
     NavbarStatic,
     TemplePage5
@@ -12,7 +13,7 @@ import Navbar from "@/components/Navbar";
     return (
       <main className="w-screen overflow-clip">
         <div
-        className="w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-main-color overflow-x-scroll"
+        className="w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-main-color md:overflow-x-scroll lg:overflow-hidden"
       >
         <NavbarStatic state={4}/>
       </div>
@@ -20,7 +21,7 @@ import Navbar from "@/components/Navbar";
         {accommodation_data.map((item:any,index:any)=>{
           return(
             <li key={index}> 
-              <TemplePage5
+              <AccommodationPage
               num={Number(item.num)}
               name={String(item.name)}
               district={String(item.district)}

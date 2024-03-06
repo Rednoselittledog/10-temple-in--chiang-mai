@@ -154,3 +154,7 @@ li{
 .nav-normal{
   @apply bg-transparent text-black
 }
+
+.underline-none { 
+  text-decoration: none; 
+} 
