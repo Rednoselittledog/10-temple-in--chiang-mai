@@ -64,7 +64,7 @@ const AccommodationPage = ({
               <div className="h-full rounded-xl shadow-lg shadow-gray-500 bg-sub-color p-3">
                 <Link href={url} style={{ textDecoration: 'none'}}>
                     <div className="h-full grid grid-rows-3 relative">
-                        <div className="row-span-2 relative object-cover bg-red-500">
+                        <div className="row-span-2 relative object-cover ">
                             <Image src={img} alt={name} fill/>
                         </div>
                         <div className=" row-span-1 relative mt-3 object-cover">

@@ -26,3 +26,10 @@ export interface NavbarProps{
 export interface NavbarStaticProps{
     state : number
 }
+
+export interface ActivityPageProps{
+    num : number,
+    name : string,
+    img : string,
+    activity : string
+}

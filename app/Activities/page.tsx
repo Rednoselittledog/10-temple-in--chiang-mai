@@ -1,4 +1,5 @@
 import {
+  ActivityPage,
     Gallery,
     Hero,
     NavbarStatic,
@@ -21,13 +22,11 @@ import Navbar from "@/components/Navbar";
         {temple_data.map((item:any,index:any)=>{
           return(
             <li key={index}> 
-              <TemplePage5
+              <ActivityPage
               num={Number(item.num)}
               name={String(item.name)}
-              district={String(item.district)}
-              img={String(item.img)}
-              description={String(item.activity)}
-              url={String(item.link)}
+              img={String(item.activity_img)}
+              activity={String(item.activity)}
               />
             </li>
             )

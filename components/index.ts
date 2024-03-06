@@ -12,6 +12,7 @@ import Hero2 from "./Hero2";
 import Navbar from "./Navbar";
 import NavbarStatic from "./NavbarStatic";
 import AccommodationPage from "./AccommodationPage";
+import ActivityPage from "./ActivityPage";
 export{
     Gallery,
     TemplePage,
@@ -26,4 +27,5 @@ export{
     Navbar,
     NavbarStatic,
     AccommodationPage,
+    ActivityPage,
 }
