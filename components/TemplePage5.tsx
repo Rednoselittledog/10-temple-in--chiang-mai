@@ -32,9 +32,9 @@ const TemplePage5 = ({
   }, [isPortrait]);
 
   return (
-    <div className={`flex flex-col items-center ${!isPortrait?'page':'page-2'} bg-main-color`} id={name}>
-      <div className="h-full px-10 pt-24 flex flex-col items-center">
-        <div className="h-full p-3 flex flex-col items-center rounded-xl shadow-lg shadow-gray-500 bg-sub-color">
+    <div className={`flex flex-col items-center overflow-hidden${!isPortrait?'page':'page-2'} bg-main-color`} id={name}>
+      <div className="object-cover px-10 pt-24 flex flex-col items-center">
+        <div className="object-cover p-3 flex flex-col items-center rounded-xl shadow-lg shadow-gray-500 bg-sub-color">
           
           
           <div className="title-container ">
@@ -46,8 +46,8 @@ const TemplePage5 = ({
             </div>
           </div>
 
-          <div className="lg:grid lg:grid-cols-5 lg:gap-10 h-full relative ">
-            <div className="image-container col-span-3">
+          <div className="lg:grid lg:grid-cols-5 lg:gap-10 object-cover relative pt-2">
+            <div className="image-container col-span-3 overflow-hidden">
               <img src={img} alt={name} />
             </div>
 

@@ -81,13 +81,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .image-container{
-  @apply w-full   flex justify-center
+  @apply flex justify-center container object-cover
 }
 
 .image-container img{
   height: 100%;
-  width: auto;
-  object-fit: cover;
+  width: 100%;
+  object-fit: fill;
 }
 
 .auto-img-y{
@@ -96,12 +96,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .description-box{
-  @apply  sm:px-0  whitespace-pre-wrap 
+  @apply sm:px-0  whitespace-pre-wrap 
 }
 
 
 .map{
-  @apply  w-full relative 
+  @apply w-full relative 
 }
 
 

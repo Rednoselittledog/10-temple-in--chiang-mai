@@ -4,11 +4,11 @@ import {
     TemplePage5
   } from "@/components";
   import Image from "next/image";
-  import data from "@/data.json";
+  import data from "@/data_accomodation.json";
   import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
   export default function Home() {
-    let temple_data = data.data;
+    let accommodation_data = data.data;
     return (
       <main className="w-screen overflow-clip">
         <div
@@ -17,7 +17,7 @@ import Navbar from "@/components/Navbar";
         <NavbarStatic state={4}/>
       </div>
         
-        {temple_data.map((item:any,index:any)=>{
+        {accommodation_data.map((item:any,index:any)=>{
           return(
             <li key={index}> 
               <TemplePage5
