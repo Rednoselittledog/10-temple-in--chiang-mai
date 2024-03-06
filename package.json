@@ -19,6 +19,8 @@
     "@mui/icons-material": "^5.15.11",
     "@mui/material": "^5.15.11",
     "@mui/styled-engine-sc": "^6.0.0-alpha.17",
+    "@react-google-maps/api": "^2.19.3",
+    "@types/google.maps": "^3.55.4",
     "bootstrap": "^5.3.3",
     "flowbite-react": "^0.7.2",
     "next": "14.1.0",

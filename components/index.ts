@@ -13,6 +13,8 @@ import Navbar from "./Navbar";
 import NavbarStatic from "./NavbarStatic";
 import AccommodationPage from "./AccommodationPage";
 import ActivityPage from "./ActivityPage";
+import TemplePageMain from "./TemplePageMain";
+import StaticMap from "./StaticMap";
 export{
     Gallery,
     TemplePage,
@@ -28,4 +30,6 @@ export{
     NavbarStatic,
     AccommodationPage,
     ActivityPage,
+    TemplePageMain,
+    StaticMap
 }

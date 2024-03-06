@@ -7,7 +7,8 @@ import {
   TemplePage2,
   TemplePage3,
   TemplePage4,
-  TemplePage5
+  TemplePage5,
+  TemplePageMain
 } from "@/components";
 import Image from "next/image";
 import data from "@/data.json";
@@ -21,7 +22,7 @@ export default function Home() {
       {temple_data.map((item:any,index:any)=>{
         return(
           <li key={index}> 
-            <TemplePage5
+            <TemplePageMain
             num={Number(item.num)}
             name={String(item.name)}
             district={String(item.district)}
