@@ -17,3 +17,12 @@ export interface TemplePageProps{
 export interface CarouselItemPropsForMap{
     item : any
 }
+
+export interface NavbarProps{
+    transparent : boolean,
+    current? : string
+}
+
+export interface NavbarStaticProps{
+    state : number
+}

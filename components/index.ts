@@ -7,6 +7,10 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import CarouselBG from "./CarouselBG";
 import TemplePage5 from "./TemplePage5";
+import Hero3 from "./Hero3";
+import Hero2 from "./Hero2";
+import Navbar from "./Navbar";
+import NavbarStatic from "./NavbarStatic";
 export{
     Gallery,
     TemplePage,
@@ -15,5 +19,9 @@ export{
     TemplePage4,
     TemplePage5,
     Hero,
-    CarouselBG
+    Hero2,
+    Hero3,
+    CarouselBG,
+    Navbar,
+    NavbarStatic,
 }

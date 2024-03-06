@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   @apply md:text-3xl text-lg text-gray-500 text-title
 }
 
+
 .image-container{
   @apply w-full   flex justify-center
 }
@@ -145,5 +146,11 @@ li{
 .text-sub-color{
   @apply text-black
 }
-/* "eslint": "^8",
- "eslint-config-next": "14.1.0", */
+
+.nav-focus{
+  @apply bg-red-400 text-white
+}
+
+.nav-normal{
+  @apply bg-transparent text-black
+}

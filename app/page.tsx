@@ -1,6 +1,8 @@
 import {
   Gallery,
   Hero,
+  Hero2,
+  Hero3,
   TemplePage,
   TemplePage2,
   TemplePage3,
@@ -14,7 +16,7 @@ export default function Home() {
   let temple_data = data.data;
   return (
     <main className="w-screen overflow-clip">
-        <Hero/>
+        <Hero2/>
       
       {temple_data.map((item:any,index:any)=>{
         return(
@@ -30,7 +32,6 @@ export default function Home() {
           </li>
           )
       })}
-
       <Gallery />
       <Footer/>
     </main>
