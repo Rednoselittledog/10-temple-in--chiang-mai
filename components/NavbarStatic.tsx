@@ -6,7 +6,7 @@ const NavbarStatic = ({ state }: NavbarStaticProps) => {
     return (
         // px-10 2xl:px-16
         <div className="flex flex-row justify-center items-center w-full h-full ">
-            <div  className=" w-full h-full grid grid-cols-5 justify-between items-center ">
+            <div  className=" w-full h-full grid grid-cols-5 justify-between items-center sm:overflow-x-scroll">
             <Link href={'/'}  style={{ textDecoration: 'none' }} className={`px-1 w-full h-full flex justify-center ${state==1?'nav-focus' : 'nav-normal'}`}>
               <p className={`text-xl my-auto text-title `}>Temples</p>
             </Link>
