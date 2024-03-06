@@ -43,3 +43,16 @@ export interface ActivityPageProps{
     img : string,
     activity : string
 }
+
+export interface TransportationPageProps{
+    num:number,
+    from:string,
+    to:string,
+    from_location:string,
+    to_location:string
+}
+
+export interface DirectionMapProps{
+    from:string,
+    to:string,
+}

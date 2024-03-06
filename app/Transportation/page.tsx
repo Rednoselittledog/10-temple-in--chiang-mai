@@ -2,14 +2,15 @@ import {
     Gallery,
     Hero,
     NavbarStatic,
-    TemplePage5
+    TemplePage5,
+    TransportationPage
   } from "@/components";
   import Image from "next/image";
-  import data from "@/data.json";
+  import data from "@/data_transportation.json";
   import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
   export default function Home() {
-    let temple_data = data.data;
+    let transportation_data = data.data;
     return (
       <main className="w-screen overflow-clip">
         <div
@@ -18,16 +19,15 @@ import Navbar from "@/components/Navbar";
         <NavbarStatic state={2}/>
       </div>
         
-        {temple_data.map((item:any,index:any)=>{
+        {transportation_data.map((item:any,index:any)=>{
           return(
             <li key={index}> 
-              <TemplePage5
+              <TransportationPage
               num={Number(item.num)}
-              name={String(item.name)}
-              district={String(item.district)}
-              img={String(item.img)}
-              description={String(item.description)}
-              url={String(item.link)}
+              from={String(item.from)}
+              to={String(item.to)}
+              from_location={String(item.from_location)}
+              to_location={String(item.to_location)}
               />
             </li>
             )

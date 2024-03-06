@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { StaticMap } from ".";
 
 const TemplePageMain = ({
   num,
@@ -59,8 +58,14 @@ const TemplePageMain = ({
                 </p>
               </div>
 
-              <div className="map h-full">
-                <StaticMap/>
+              <div className="map h-full ">
+                <iframe
+                src={url}
+                width="100%"
+                height="100%"
+                loading="lazy"
+                className="shadow-sm shadow-gray-500"
+                />
               </div>
             </div>
           </div>
@@ -72,3 +77,4 @@ const TemplePageMain = ({
 };
 
 export default TemplePageMain;
+
