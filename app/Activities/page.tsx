@@ -32,7 +32,7 @@ import Navbar from "@/components/Navbar";
             )
         })}
         <Gallery />
-        <Footer/>
+        {/* <Footer/> */}
       </main>
     );
   }
