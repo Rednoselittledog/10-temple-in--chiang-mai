@@ -5,8 +5,8 @@ import React from 'react'
 const ActivityPage = ({num,name,img,activity} : ActivityPageProps) => {
   return (
     <div className='page-2 lex flex-col items-center overflow-hidden bg-main-color'>
-        <div className="px-10 pt-20 pb-4 flex flex-col items-center">
-            <div className="p-3 w-full min-h-80 rounded-xl shadow-lg shadow-gray-500 bg-sub-color flex flex-col">
+        <div className="px-10 pt-20 pb-1 flex flex-col items-center">
+            <div className="p-3 w-full min-h-80 rounded-xl shadow-md shadow-gray-300 bg-sub-color flex flex-col">
 
                 <p className='title-text-main'>{num} {name}</p>
                 <div className='md:grid lg:grid-cols-6 md:gap-6 min-h-64 flex flex-col'>
