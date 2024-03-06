@@ -27,7 +27,7 @@ const Hero2 = () => {
       id="home"
     >
       <div
-        className={"w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-main-color md:overflow-x-scroll lg:overflow-hidden"}
+        className={"w-screen h-14 md:h-18 shadow-xl z-[100] fixed top-0 left-0 bg-main-color overflow-auto"}
       >
         <NavbarStatic state={1}/>
       </div>
