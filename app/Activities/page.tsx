@@ -1,7 +1,6 @@
 import {
   ActivityPage,
     Gallery,
-    Hero,
     NavbarStatic,
     TemplePage5
   } from "@/components";

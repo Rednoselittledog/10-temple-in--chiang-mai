@@ -19,7 +19,7 @@ const NavbarStatic = ({ state }: NavbarStaticProps) => {
             <Link href={'/Accommodations'}  style={{ textDecoration: 'none' }}  className={`lg:px-0 px-3 w-full h-full flex justify-center ${state==4?'nav-focus' : 'nav-normal'}`}>
               <p className={`text-sm md:text-xl my-auto text-title `}>Accommodations</p>
             </Link>
-            <Link href={'/About us'}  style={{ textDecoration: 'none' }}  className={`lg:px-0 px-3 w-full h-full flex justify-center ${state==5?'nav-focus' : 'nav-normal'}`}>
+            <Link href={'/About_us'}  style={{ textDecoration: 'none' }}  className={`lg:px-0 px-3 w-full h-full flex justify-center ${state==5?'nav-focus' : 'nav-normal'}`}>
               <p className={`text-nowrap text-sm md:text-xl my-auto text-title `}>About us</p>
             </Link>
           </div>
