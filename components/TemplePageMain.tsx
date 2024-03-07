@@ -47,7 +47,7 @@ const TemplePageMain = ({
           </div>
 
           <div className="lg:grid lg:grid-cols-5 lg:gap-10 object-cover relative pt-2">
-            <div className="image-container col-span-3 overflow-hidden">
+            <div className="image-container col-span-3 overflow-hidden relative">
               <img src={img} alt={name} className="object-cover"/>
             </div>
 
