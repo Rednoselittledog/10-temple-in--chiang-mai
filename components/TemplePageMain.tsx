@@ -58,13 +58,13 @@ const TemplePageMain = ({
                 </p>
               </div>
 
-              <div className="map h-full ">
+              <div className="map h-full object-cover">
                 <iframe
                 src={url}
                 width="100%"
                 height="100%"
                 loading="lazy"
-                className="shadow-sm shadow-gray-500"
+                className="shadow-sm shadow-gray-500 object-cover"
                 />
               </div>
             </div>
