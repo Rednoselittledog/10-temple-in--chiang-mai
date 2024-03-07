@@ -14,7 +14,7 @@ export default function Home() {
             <div className="object-cover w-full h-full px-10 pt-24 pb-14 flex flex-col items-center">
                 <div className="object-cover w-full h-full p-3 flex flex-col items-center justify-center rounded-xl shadow-lg shadow-gray-500 bg-sub-color">
 
-                    <p className=" sm:title-text-main text-5xl text-title">about us</p>
+                    <p className=" sm:title-text-main text-5xl text-title pt-1">about us</p>
                     <div className="py-3 flex flex-col justify-center items-center">
                     <p className="text-2xl font-bold">Members</p>
                     <p className="description-box text-lg md:text-xl ">Natthapha_kh65@live.rmutl.ac.th      Tel.0931426018{'\n'}
