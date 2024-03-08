@@ -63,7 +63,7 @@ const TemplePageMain = ({
                 <iframe
                 src={url}
                 width="100%"
-                // height="100%"
+                height="100%"
                 loading="lazy"
                 className="shadow-sm shadow-gray-500 object-cover"
                 />
